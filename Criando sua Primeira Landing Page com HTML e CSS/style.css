@@ -14,11 +14,23 @@ body, html {
     text-align: left;
 }
 
+.banner {
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)), url('./assets/images/banner.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    padding-top: 60px;
+    border-bottom: 1px solid #33A8DB80;
+}
+
 header, main, footer {
     width: 100%;
     box-sizing: border-box;
+    border-bottom: 1px solid #33A8DB80;
 }
-
+header{
+    padding: 20px;
+}
 header .banner-content {
     display: flex;
     flex-direction: column;
@@ -53,9 +65,8 @@ main .modules-list .module {
 }
 
 button {
-    padding: 10px 20px;
-    background-color: transparent;
     padding: 10px 40px;
+    background-color: transparent;
     color: #1572B7;
     border: 2px solid;
     border-image: linear-gradient(180deg, #3BA1CD 0%, #1572B7 100%);
@@ -65,13 +76,10 @@ button {
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-
-
 a {
     color: #007bff;
     text-decoration: none;
 }
-
 
 h1 {
     font-size: 40px;
@@ -131,6 +139,8 @@ p {
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    border-top:1px solid #33A8DB80;
+    border-bottom:1px solid #33A8DB80;
 }
 
 #transform-world p {
