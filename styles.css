@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: .5rem;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-left, .nav-center, .nav-right {
+    flex: 1;
+}
+
+.nav-left h1 {
+    margin-left: 1rem;
+}
+
+.nav-center {
+    text-align: center;
+}
+
+.nav-center .nav-icon {
+    width: 50px;
+    height: 50px;
+}
+
+.nav-right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-right a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1rem;
+}
+
+.nav-right a:hover {
+    text-decoration: underline;
+}
+
+#inicio {
+    display: flex;
+    align-items: center;
+    padding: 120px 40px 100px 40px;
+}
+
+.profile-photo {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    margin-right: 2rem;
+}
+
+.profile-text {
+    text-align: justify;
+}
+
+.project {
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+}
+
+.project img {
+    width: 50%;
+}
+
+.project-info {
+    padding: 1rem;
+    flex: 1;
+}
+
+.icons {
+    display: flex;
+    justify-content: center; 
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.icons img {
+    width: 30px;
+    height: 30px;
+}
+
+#sobre {
+    display: flex;
+    padding: 2rem;
+    margin-bottom: 40px;
+}
+
+.skills {
+    width: 35%;
+}
+
+.personal {
+    padding: 15px 50px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.download-button {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.download-button:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-content a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1rem;
+}
+
+.footer-content a img {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-right: 0.5rem;
+}
